@@ -14,7 +14,7 @@ with open('details.json')as f:
 for state in data["yupoos"]:
     break
 
-def getAlbumURLS():
+def getAlbumURLS(): https://topstoney.x.yupoo.com/
 
     f = open("albumURLs.csv", "w", newline="", encoding="utf-8")
     #os.system("attrib +h albumURLs.csv")
